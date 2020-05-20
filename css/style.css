@@ -57,6 +57,10 @@ section.page2 .wrapper {
   margin: 80px auto;
 }
 @media screen and (max-width: 1280px) {
+  section.page2 .wrapper {
+    background-color: #ebbcb1;
+    padding: 5px;
+  }
   section.page2 .wrapper .img {
     flex-basis: 0;
   }
@@ -158,6 +162,9 @@ section.page3 .out-wrapper > div .ul-container ul {
 section.page3 .out-wrapper > div .ul-container li {
   padding-top: 25px;
 }
+section.page4 {
+  padding: 5px;
+}
 section.page4 .wrapper {
   margin: 100px auto;
 }
@@ -226,6 +233,7 @@ section.page5 {
   background-color: #ebbcb1;
   min-height: 570px;
   display: flex;
+  padding: 5px;
 }
 section.page5 h2 {
   font-size: 40px;
@@ -248,6 +256,7 @@ section.page5 .in-wrapper p {
 }
 section.page6 {
   background-color: #F0F0F0;
+  padding: 5px;
 }
 section.page6 .wrapper {
   display: flex;
